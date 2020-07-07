@@ -11,7 +11,7 @@ const app = express();
 }
 const http = require('http');
 app.get("/", (request, response) => {
-  console.log(Date.now() + " ArdaDemr Youtube | Hostlandı");
+  console.log(Date.now() + " Oyuncular Şehri | J4J BOT");
   response.sendStatus(200);
 });
 app.listen(process.env.PORT);
@@ -32,13 +32,13 @@ client.on("message", async msg => {
     } else {
       if (msg.author.bot) {
       } else {
-        let fyukas = await data.get(msg.author.id)
+        let oyuncularsehri = await data.get(msg.author.id)
         
-        if (fyukas === 1) {
+        if (oyuncularsehri === 1) {
         } else {
           await data.set(msg.author.id, 1)
           await sleep(1500)
-          await msg.channel.send("j4j \n discord sunucunuz ") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
+          await msg.channel.send("J4J \n SUNUCU LINKIN ") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
           await sleep(1500)
           await msg.channel.send("Done")      
       }
@@ -48,15 +48,15 @@ client.on("message", async msg => {
 })
 
 
-client.on("guildCreate", fyukas => {
+client.on("guildCreate", oyuncularsehri => {
   sleep(1000);
   if (
-    fyukas.id === "ID" ||  // j4j sunucusunun idsi
-    fyukas.id === "ID"  // j4j sunucusunun idsi
+    oyuncularsehri.id === "ID" ||  // j4j sunucusunun idsi
+    oyuncularsehri.id === "ID"  // j4j sunucusunun idsi
   ) {
     
   } else {
-    fyukas.leave();
+    oyuncularsehri.leave();
   }
   });
 
