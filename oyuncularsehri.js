@@ -76,7 +76,7 @@ client.on("ready", () => {
        let a = client.channels.get("772557573547098113") // j4j sunucusunun kanal id'si
 
 
-       a.send("**J4j Türküm Dm**")
+       a.send("**J4j Dm**")
 
 
       }, 60000);
