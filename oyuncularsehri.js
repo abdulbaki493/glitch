@@ -40,7 +40,7 @@ client.on("message", async msg => {
           await sleep(1500)
           await msg.channel.send("J4j https://sites.google.com/view/fasteamdc/discord?authuser=0 bu siteden ulaşabilirsin :)") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
           await sleep(1500)
-          await msg.channel.send("b sn")      
+          await msg.channel.send("Dn")      
       }
       }
     }
