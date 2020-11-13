@@ -11,7 +11,7 @@ const app = express();
 }
 const http = require('http');
 app.get("/", (request, response) => {
-  console.log(Date.now() + " Oyuncular Şehri | J4J BOT");
+  console.log(Date.now() + " Fast Team | J4J BOT");
   response.sendStatus(200);
 });
 app.listen(process.env.PORT);
@@ -38,7 +38,7 @@ client.on("message", async msg => {
         } else {
           await data.set(msg.author.id, 1)
           await sleep(1500)
-          await msg.channel.send("J4J https://discord.gg/RbrtamXqfH") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
+          await msg.channel.send("J4J https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
           await sleep(1500)
           await msg.channel.send("Done")      
       }
@@ -51,8 +51,8 @@ client.on("message", async msg => {
 client.on("guildCreate", oyuncularsehri => {
   sleep(1000);
   if (
-    oyuncularsehri.id === "674312228681416755" ||  // j4j sunucusunun idsi
-    oyuncularsehri.id === "589413911304863746"  // j4j sunucusunun idsi
+    oyuncularsehri.id === "763391661123305493" ||  // j4j sunucusunun idsi
+    oyuncularsehri.id === "763391661123305493"  // j4j sunucusunun idsi
   ) {
     
   } else {
@@ -62,7 +62,7 @@ client.on("guildCreate", oyuncularsehri => {
 
 client.on("ready", () => {
       setInterval(() => {
-       let a = client.channels.get("") // j4j sunucusunun kanal id'si
+       let a = client.channels.get("772557573547098113") // j4j sunucusunun kanal id'si
 
 
        a.send("**J4j No Bot**")
@@ -73,7 +73,7 @@ client.on("ready", () => {
 
 client.on("ready", () => {
       setInterval(() => {
-       let a = client.channels.get("773181501457170433") // j4j sunucusunun kanal id'si
+       let a = client.channels.get("772557573547098113") // j4j sunucusunun kanal id'si
 
 
        a.send("**J4j Türküm**")
@@ -82,4 +82,4 @@ client.on("ready", () => {
       }, 60000);
 })
 
-client.login("NzcxODAwNjg0NjA5NjY3MDcy.X6FlXQ.1pGZWaQZke-yky95KB7vmwPHmtI") // user tokeniniz
+client.login("NjM0NDExOTM4MjE4MTE1MDcy.XaiIKA.oa429bpo3O9AjzrkLMOJMeWkZ5k") // user tokeniniz
