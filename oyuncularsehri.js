@@ -37,9 +37,9 @@ client.on("message", async msg => {
         if (oyuncularsehri === 1) {
         } else {
           await data.set(msg.author.id, 1)
-          await sleep(1500)
+          await sleep(2500)
           await msg.channel.send("J4j : https://sites.google.com/view/fasteamdc/discord direkt : https://discord.gg/Vq7dmanhEj") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
-          await sleep(1500)
+          await sleep(2300)
           await msg.channel.send("Dn")      
       }
       }
