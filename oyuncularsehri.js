@@ -65,7 +65,7 @@ client.on("ready", () => {
        let a = client.channels.get("776559328361578546") // j4j sunucusunun kanal id'si
 
 
-       a.send("**J4j Dm**")
+       a.send("**J4j Dm kalıcılar**")
 
 
       }, 30000);
@@ -76,10 +76,10 @@ client.on("ready", () => {
        let a = client.channels.get("776559328361578546") // j4j sunucusunun kanal id'si
 
 
-       a.send("**J4j**")
+       a.send("**J4j kalıcılar gelsn**")
 
 
       }, 60000);
 })
 
-client.login("NDg4MzQ3NDk1OTMyNDkzODM0.X65H2A.9lZv2ODJtuSd8_xadcHi31BpHiY") // user tokeniniz
+client.login("NDg4MzQ3NDk1OTMyNDkzODM0.X65H2A.9lZv2ODJtuSd8_xadcHi31BpHi") // user tokeniniz
