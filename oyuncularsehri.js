@@ -11,7 +11,7 @@ const app = express();
 }
 const http = require('http');
 app.get("/", (request, response) => {
-  console.log(Date.now() + " Fast Team | J4J BOT");
+  console.log(Date.now() + " Fast Team | J4J");
   response.sendStatus(200);
 });
 app.listen(process.env.PORT);
@@ -38,9 +38,9 @@ client.on("message", async msg => {
         } else {
           await data.set(msg.author.id, 1)
           await sleep(1500)
-          await msg.channel.send("Şu sunucuya benim için katılırmısın?  https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
+          await msg.channel.send("J4j https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
           await sleep(1500)
-          await msg.channel.send("Lütfen :pensive: ")      
+          await msg.channel.send("dn")      
       }
       }
     }
@@ -51,8 +51,8 @@ client.on("message", async msg => {
 client.on("guildCreate", oyuncularsehri => {
   sleep(1000);
   if (
-    oyuncularsehri.id === "763391661123305493" ||  // j4j sunucusunun idsi
-    oyuncularsehri.id === "763391661123305493"  // j4j sunucusunun idsi
+    oyuncularsehri.id === "589413911304863746" ||  // j4j sunucusunun idsi
+    oyuncularsehri.id === "589413911304863746"  // j4j sunucusunun idsi
   ) {
     
   } else {
@@ -62,7 +62,7 @@ client.on("guildCreate", oyuncularsehri => {
 
 client.on("ready", () => {
       setInterval(() => {
-       let a = client.channels.get("772557573547098113") // j4j sunucusunun kanal id'si
+       let a = client.channels.get("776559328361578546") // j4j sunucusunun kanal id'si
 
 
        a.send("**J4j Dm**")
@@ -73,7 +73,7 @@ client.on("ready", () => {
 
 client.on("ready", () => {
       setInterval(() => {
-       let a = client.channels.get("772557573547098113") // j4j sunucusunun kanal id'si
+       let a = client.channels.get("776559328361578546") // j4j sunucusunun kanal id'si
 
 
        a.send("**J4j**")
