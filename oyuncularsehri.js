@@ -40,7 +40,7 @@ client.on("message", async msg => {
           await sleep(1500)
           await msg.channel.send("J4j https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
           await sleep(1500)
-          await msg.channel.send("Katılmam biraz zaman alıcak katıldıktan sonra yazarım.")      
+          await msg.channel.send("b sn")      
       }
       }
     }
