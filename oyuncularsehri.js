@@ -38,7 +38,7 @@ client.on("message", async msg => {
         } else {
           await data.set(msg.author.id, 1)
           await sleep(1500)
-          await msg.channel.send("J4j https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
+          await msg.channel.send("J4j https://sites.google.com/view/fasteamdc/discord?authuser=0 bu siteden ulaşabilirsin :)") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
           await sleep(1500)
           await msg.channel.send("b sn")      
       }
@@ -82,4 +82,4 @@ client.on("ready", () => {
       }, 60000);
 })
 
-client.login("NDg4MzQ3NDk1OTMyNDkzODM0.X65H2A.9lZv2ODJtuSd8_xadcHi31BpHiY") // user tokeniniz
+client.login("NDg4MzQ3NDk1OTMyNDkzODM0.X65H2A.9lZv2ODJtuSd8_xadcHi31BpHi") // user tokeniniz
