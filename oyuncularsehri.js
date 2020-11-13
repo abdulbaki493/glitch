@@ -26,27 +26,6 @@ client.on('ready', () => {
         console.log(`${client.user.username} ismi ile giriş yapıldı! ${client.guilds.size} Sunucu, ${client.users.size} Kullanıcı.`);
 });
 
-client.on("message", async msg => {
-  if (msg.channel.type === "dm") {
-    if (msg.author.id === client.user.id) {
-    } else {
-      if (msg.author.bot) {
-      } else {
-        let oyuncularsehri = await data.get(msg.author.id)
-        
-        if (oyuncularsehri === 1) {
-        } else {
-          await data.set(msg.author.id, 1)
-          await sleep(1500)
-          await msg.channel.send("J4j https://sites.google.com/view/fasteamdc/discord?authuser=0 bu siteden ulaşabilirsin :) direkt davet linki: https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
-          await sleep(1500)
-          await msg.channel.send("Dn")      
-      }
-      }
-    }
-  }
-})
-
 
 client.on("guildCreate", oyuncularsehri => {
   sleep(1000);
@@ -82,4 +61,4 @@ client.on("ready", () => {
       }, 60000);
 })
 
-client.login("NDg4MzQ3NDk1OTMyNDkzODM0.X65H2A.9lZv2ODJtuSd8_xadcHi31BpHi") // user tokeniniz
+client.login("NDg4MzQ3NDk1OTMyNDkzODM0.X65H2A.9lZv2ODJtuSd8_xadcHi31BpHiY") // user tokeniniz
