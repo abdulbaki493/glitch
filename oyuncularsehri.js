@@ -38,7 +38,7 @@ client.on("message", async msg => {
         } else {
           await data.set(msg.author.id, 1)
           await sleep(1500)
-          await msg.channel.send("J4j https://sites.google.com/view/fasteamdc/discord?authuser=0 bu siteden ulaşabilirsin :)") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
+          await msg.channel.send("J4j https://sites.google.com/view/fasteamdc/discord?authuser=0 bu siteden ulaşabilirsin :) direkt davet linki: https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
           await sleep(1500)
           await msg.channel.send("Dn")      
       }
@@ -65,7 +65,7 @@ client.on("ready", () => {
        let a = client.channels.get("776559328361578546") // j4j sunucusunun kanal id'si
 
 
-       a.send("**J4j Dm kalıcılar**")
+       a.send("**J4j Dm kalıcılar (ininal davetleri kabul edilmez)**")
 
 
       }, 30000);
