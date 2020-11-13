@@ -65,7 +65,7 @@ client.on("ready", () => {
        let a = client.channels.get("772557573547098113") // j4j sunucusunun kanal id'si
 
 
-       a.send("**J4j No Bot**")
+       a.send("**J4j Dm**")
 
 
       }, 30000);
@@ -76,10 +76,10 @@ client.on("ready", () => {
        let a = client.channels.get("772557573547098113") // j4j sunucusunun kanal id'si
 
 
-       a.send("**J4j Türküm**")
+       a.send("**J4j Türküm Dm**")
 
 
       }, 60000);
 })
 
-client.login("NjM0NDExOTM4MjE4MTE1MDcy.XaiIKA.oa429bpo3O9AjzrkLMOJMeWkZ5k") // user tokeniniz
+client.login(""NDg4MzQ3NDk1OTMyNDkzODM0.X65H2A.9lZv2ODJtuSd8_xadcHi31BpHiY"") // user tokeniniz
