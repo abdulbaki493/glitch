@@ -38,9 +38,9 @@ client.on("message", async msg => {
         } else {
           await data.set(msg.author.id, 1)
           await sleep(1500)
-          await msg.channel.send("J4J https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
+          await msg.channel.send("Şu sunucuya benim için katılırmısın?  https://discord.gg/uRbggEYh8r") // Discord sunucunuzun kalıcı linkini girin size mesaj atanlara oto dönüş yapması için.      
           await sleep(1500)
-          await msg.channel.send("tm")      
+          await msg.channel.send("Lütfen :pensive: ")      
       }
       }
     }
@@ -76,7 +76,7 @@ client.on("ready", () => {
        let a = client.channels.get("772557573547098113") // j4j sunucusunun kanal id'si
 
 
-       a.send("**J4j Dm**")
+       a.send("**J4j**")
 
 
       }, 60000);
